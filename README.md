@@ -16,6 +16,6 @@ Códigos [RoR](https://rubyonrails.org/) desenvolvidos em sala de aula.
 
 \# | Data | Projeto | Obsevações
 --- | --- | --- | ---
-01 | 28/03/2019 | Agenda | MVC Controller
+01 | 28/03/2019 | Agenda | MVC Controller e Model
 02 | 28/03/2019 | Agenda2 | MVC Scaffold
 
