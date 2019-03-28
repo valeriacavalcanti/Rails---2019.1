@@ -1,0 +1,21 @@
+<h1>People#index</h1>
+
+<h2><%= @nome %></h2>
+<h3><%= @numeros %></h3>
+
+<% for num in @numeros %>
+	<%= num %>
+	<br>
+<% end %>
+
+<br>
+Soma: <%= somador() %>
+
+<br><br>
+
+<% for p in @pessoas %>
+	<%= p.nome %>
+	<br>
+<% end %>
+
+<p>Find me in app/views/people/index.html.erb</p>
