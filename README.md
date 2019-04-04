@@ -18,4 +18,5 @@ Códigos [RoR](https://rubyonrails.org/) desenvolvidos em sala de aula.
 --- | --- | --- | ---
 01 | 28/03/2019 | Agenda | MVC Controller e Model
 02 | 28/03/2019 | Agenda2 | MVC Scaffold
+03 | 04/04/2019 | Agenda3 | Scaffold, Rotas e Helper (Collection_Select)
 
