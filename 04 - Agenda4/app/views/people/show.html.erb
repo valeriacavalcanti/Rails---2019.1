@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @person.nome %>
+</p>
+
+<p>
+  <strong>Abreviacao:</strong>
+  <%= @person.abreviacao %>
+</p>
+
+<p>
+  <strong>Nascimento:</strong>
+  <%= @person.nascimento %>
+</p>
+
+<h3>Mãe</h3>
+<p>
+  <strong>Nome:</strong>
+  <%= @person.mother.nome %>
+</p>
+<p>
+  <strong>Facebook:</strong>
+  <%= @person.mother.facebook %>
+</p>
+
+<%= link_to 'Edit', edit_person_path(@person) %> |
+<%= link_to 'Back', people_path %>
