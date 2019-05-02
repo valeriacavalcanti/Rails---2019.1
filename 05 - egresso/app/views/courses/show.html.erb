@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @course.nome %>
+</p>
+
+<p>
+  <strong>Site:</strong>
+  <%= @course.site %>
+</p>
+
+<p>
+  <strong>Sigla:</strong>
+  <%= @course.sigla %>
+</p>
+
+<h3>Coordenador:</h3>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @course.coordinator.nome %>
+</p>
+
+<p>
+  <strong>Matrícula:</strong>
+  <%= @course.coordinator.matricula %>
+</p>
+
+<p>
+  <strong>Senha:</strong>
+  <%= @course.coordinator.senha %>
+</p>
+
+<%= link_to 'Edit', edit_course_path(@course) %> |
+<%= link_to 'Back', courses_path %>
